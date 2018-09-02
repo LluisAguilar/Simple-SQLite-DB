@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/fondo2"
+    android:orientation="vertical"
+    tools:context="com.tecnologico.basedatos.luis_aguilar.basedatos.Modificar">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:text="Modificar"
+        android:textColor="#00ff0d"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/TxtConsulta"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"
+            android:layout_width="200dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:hint="Introduce ID o Nombre"/>
+        <Button
+            android:background="#07da00"
+            android:id="@+id/Buscar"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="Buscar"/>
+
+    </LinearLayout>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <EditText
+            android:id="@+id/ID"
+            android:maxLength="2"
+            android:inputType="number"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"
+            android:layout_marginTop="20dp"
+            android:hint="ID"
+            android:textAlignment="center"
+
+            />
+        <EditText
+            android:id="@+id/Nombre"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:hint="Nombre"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"
+            android:textAlignment="center"
+
+            />
+        <EditText
+            android:id="@+id/Ocupacion"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:hint="Ocupacion"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"
+            android:textAlignment="center"
+
+            />
+        <EditText
+            android:id="@+id/Telefono"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:inputType="number"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"
+            android:maxLength="12"
+            android:hint="Telefono"
+            android:textAlignment="center"
+
+            />
+        <EditText
+            android:id="@+id/Correo"
+            android:layout_width="150dp"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:hint="Correo"
+            android:textAlignment="center"
+
+            />
+        <EditText
+            android:id="@+id/Contrasena"
+            android:layout_width="150dp"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:hint="Contrasena"
+            android:inputType="textPassword"
+            android:textAlignment="center"
+
+            />
+
+        <Button
+            android:id="@+id/Modificar"
+            android:layout_width="100dp"
+            android:background="#9d9d9d"
+            android:layout_height="wrap_content"
+            android:text="Modificar"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"/>
+
+
+    </LinearLayout>
+</ScrollView>
+
+
+
+
+
+
+
+</LinearLayout>

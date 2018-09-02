@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/fondo2"
+    android:orientation="vertical"
+    tools:context="com.tecnologico.basedatos.luis_aguilar.basedatos.Login">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textColor="#0040ff"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textSize="40sp"
+        />
+
+    <EditText
+        android:id="@+id/usuario"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:hint="Usuario"
+        android:textColorHint="#ffffff"
+        android:textColor="#ffffff"
+        android:textAlignment="center"
+
+        />
+
+    <EditText
+        android:id="@+id/contrasena"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:inputType="textPassword"
+        android:textColorHint="#ffffff"
+        android:textColor="#ffffff"
+        android:layout_marginTop="25dp"
+        android:hint="Contraseña"
+        android:textAlignment="center"
+
+        />
+
+    <Button
+        android:id="@+id/btnAceptar"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Aceptar"
+        android:background="#1ede00"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        />
+
+</LinearLayout>

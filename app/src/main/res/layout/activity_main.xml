@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/fondo2"
+   android:orientation="vertical">
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Contactos"
+      android:layout_gravity="center"
+      android:layout_marginTop="20dp"
+      android:textSize="40sp"
+      android:textColor="#ffffff"
+      />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+
+        >
+
+        <Button
+            android:id="@+id/agregar"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:background="@mipmap/agregarcontacto"
+            android:layout_marginRight="10dp"
+            />
+        <Button
+            android:id="@+id/consultar"
+            android:background="@mipmap/buscaricono"
+            android:layout_width="120dp"
+            android:layout_marginLeft="10dp"
+            android:layout_height="120dp" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+
+        <Button
+            android:id="@+id/borrar"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:background="@mipmap/borrarcontat"
+            android:layout_marginRight="10dp"/>
+        <Button
+            android:id="@+id/Modificar"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:background="@mipmap/modificar"
+            android:layout_marginLeft="10dp"/>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

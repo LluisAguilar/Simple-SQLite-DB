@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/fondo2"
+   android:orientation="vertical"
+    tools:context=".Consultar">
+
+    <TextView
+        android:id="@+id/Vista"
+        android:layout_width="match_parent"
+        android:textColor="#08eb00"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:text="Consulta"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        />
+
+    <LinearLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <EditText
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"
+            android:id="@+id/TxtConsulta"
+            android:layout_width="200dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:hint="Introduce ID o Nombre"/>
+        <Button
+            android:id="@+id/Consulta"
+            android:layout_width="120dp"
+            android:background="#27ec00"
+
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="Consultar"/>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/ID"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        />
+
+    <TextView
+        android:id="@+id/Nombre"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:id="@+id/Ocupacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ocupacion"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:id="@+id/Telefono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Telefono"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:id="@+id/Correo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Correo"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        />
+
+    <Button
+        android:id="@+id/Borrar"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="Borrar"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorAccent"/>
+
+
+
+</LinearLayout>

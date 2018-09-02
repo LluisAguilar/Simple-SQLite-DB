@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:orientation="vertical"
+    android:background="@mipmap/fondo2"
+    tools:context="com.tecnologico.basedatos.luis_aguilar.basedatos.Agregar">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:text="Agrega tu contacto"
+        android:textColor="#0033ff"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        />
+    <EditText
+        android:id="@+id/ID"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:maxLength="2"
+        android:inputType="number"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:hint="ID"
+        android:textAlignment="center"
+
+        />
+    <EditText
+        android:id="@+id/Nombre"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:layout_marginTop="20dp"
+        android:hint="Nombre"
+        android:textAlignment="center"
+
+        />
+    <EditText
+        android:id="@+id/Ocupacion"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:layout_marginTop="20dp"
+        android:hint="Ocupacion"
+        android:textAlignment="center"
+
+        />
+    <EditText
+        android:id="@+id/Telefono"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:inputType="number"
+        android:maxLength="12"
+        android:hint="Telefono"
+        android:textAlignment="center"
+
+        />
+    <EditText
+        android:id="@+id/Correo"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:layout_marginTop="20dp"
+        android:hint="Correo"
+        android:textAlignment="center"
+
+        />
+    <EditText
+        android:id="@+id/Contrasena"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:hint="Contrasena"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+
+        />
+
+    <Button
+        android:background="#006dfb"
+        android:id="@+id/Agregar"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Agregar"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"/>
+
+
+
+
+
+
+</LinearLayout>
+
+
